@@ -1,0 +1,67 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #lightblue;
+}
+
+header {
+    background-color: #78c7c7;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #lightblue;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.experience-card {
+    background-color:#lightblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.experience-card img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.experience-title {
+    color: #e44d26;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.experience-details {
+    color: #lightblue;
+    font-size: 16px;
+}
+
+/* Ajoutez d'autres styles au besoin */
+/* Style pour les images avec coins arrondis */
+img {
+  /* Ajouter un cadre autour de l'image */
+  border: 3px solid #333; /* Couleur et épaisseur du cadre */
+
+  /* Assurer que l'image conserve ses proportions lorsqu'elle est redimensionnée */
+  width: 150px; /* Ajustez la largeur selon vos besoins */
+  height: 150px; /* Ajustez la hauteur selon vos besoins */
+  object-fit: cover; /* Garantir que l'image conserve ses proportions */
+
+  /* Ajouter des coins arrondis */
+  border-radius: 10px; /* Ajustez le rayon selon vos préférences */
+}
+/* Styles pour le titre */
+h2 {
+  text-align: center; /* Centrer le texte */
+  color: #3498db; /* Couleur du texte (par exemple, bleu) */
+}

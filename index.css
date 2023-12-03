@@ -1,0 +1,65 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #lightblue;
+    color: ##ffc0cb;
+}
+
+header {
+    background-color: #78c7c7;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffc0cb;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.experience-card {
+    background-color: #ffc0cb;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.experience-card img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.experience-title {
+    color: #e44d26;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.experience-details {
+    color: #777;
+    font-size: 16px;
+}
+
+/* Ajoutez d'autres styles au besoin */
+/* styles.css */
+@media (max-width: 768px) {
+    /* Styles pour les écrans plus petits */
+}
+/* Style pour les images */
+img {
+  /* Ajouter un cadre autour de l'image */
+  border: 3px solid #333; /* Couleur et épaisseur du cadre */
+
+  /* Arrondir les coins de l'image pour créer un cercle */
+  border-radius: 50%; /* 50% crée un cercle, vous pouvez ajuster selon vos préférences */
+
+  /* Assurer que l'image conserve ses proportions lorsqu'elle est modifiée en cercle */
+  width: 150px; /* Ajustez la largeur selon vos besoins */
+  height: 150px; /* Ajustez la hauteur selon vos besoins */
+  object-fit: cover; /* Garantir que l'image conserve ses proportions */
+}

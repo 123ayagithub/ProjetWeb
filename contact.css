@@ -1,0 +1,65 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #87ceeb; /* Bleu ciel */
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background-color: #1e90ff; /* Bleu moyen */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff; /* Blanc */
+    font-size: 36px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.contact-card img {
+    width: 100%;
+    border-radius: 50%; /* Pour une forme circulaire */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-title {
+    color: #1e90ff; /* Bleu moyen */
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.contact-details {
+    color: #555;
+    font-size: 18px;
+}
+
+/* Ajoutez d'autres styles au besoin */
+/* Style pour les images rectangulaires encadrées */
+img {
+  /* Ajouter un cadre autour de l'image */
+  border: 3px solid pink; /* Couleur et épaisseur du cadre */
+
+  /* Assurer que l'image conserve ses proportions lorsqu'elle est redimensionnée */
+  width: 300px; /* Ajustez la largeur selon vos besoins */
+  height: 200px; /* Ajustez la hauteur selon vos besoins */
+  object-fit: cover; /* Garantir que l'image conserve ses proportions */
+}
+h2 {
+  text-align: center; /* Centrer le texte */
+  color: #3498db; /* Couleur du texte (par exemple, bleu) */
+}
